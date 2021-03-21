@@ -1,24 +1,23 @@
-# Girlfriend/Boyfriend Text
-Send text to girlfriend/boyfriend (or really anyone with a phone number) in the morning
+Send Auto text to anyone.
 
-## 1. Configure your settings in `utils.py`.
+1. Configure your settings in `utils.py`.
 ```py
 phone_number = "+15555555555"
 # enter the target phone number inside quotation marks. use the format "+15555555555"
-message = ["Good Morning Babe", "Good morning my love", "Good morning cutie 😊"]
-# just make sure the message is inside quotation marks. An example is "Did you sleep well?"
+message = ["Any message"]
+# just make sure the message is inside quotation marks. An example is "How you doin?"
 scheduled_time = "08:00"
 # make sure the hour has 2 digits (24-hour standard).
 ```
 
 Note: If you want to send a message everyday at 8:45 AM, you will need to set `scheduled_time = "08:45"` in `utils.py`
 
-## 2. Install requirements
+2. Install requirements
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
-## 3. Run the script
+3. Run the script
 ```bash
 python3 main.py
 ```
